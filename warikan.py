@@ -28,6 +28,7 @@ print(f"1人あたり: {amount // number_of_people}円, 端数: {amount % number
 # Table2: 2000円で3人
 # Table3: 3647円で4人
 
+
 def warikan(amount, number_of_people):
     return amount // number_of_people, amount % number_of_people
 
